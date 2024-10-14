@@ -1,0 +1,13 @@
+The list of the important libraries used in making Google Lens Pro Max is:
+
+1.Transformer:
+Loads a language model and tokenizer to process user prompts and generate 
+meaningful text outputs.Helps combine image information with user-defined prompts for 
+generating search queries.
+
+2.Pillow: 
+Handles image processing tasks like loading and encoding images. 
+
+3.Tavily:
+Uses TavilyClient to fetch relevant web search results based on the keywords generated 
+from the input image and prompt.
