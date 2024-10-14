@@ -11,3 +11,8 @@ Handles image processing tasks like loading and encoding images.
 3.Tavily:
 Uses TavilyClient to fetch relevant web search results based on the keywords generated 
 from the input image and prompt.
+
+4.Python:
+
+The core programming language used to implement the application logic and orchestrate different components.
+Python Documentation
