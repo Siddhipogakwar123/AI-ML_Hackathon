@@ -40,7 +40,8 @@ pip install -r requirements.txt
 Update the search_web() function in main.py with your Tavily API key.
 
 ### Step 4: Run the Application
-python main.py
+streamlit run main.py
+
 
 ---
 ## Tech Stack
@@ -49,6 +50,7 @@ python main.py
 - **Transformers Library**: A library for natural language processing, used to load and work with the model.
 - **Pillow**: A Python Imaging Library (PIL) fork used for image processing tasks.
 - **Tavily API**: A free-tier web search API used to perform web searches based on the image and user prompt.
+- **Streamlit**: A framework for building interactive web applications in Python.
 
 ---
 
@@ -90,6 +92,10 @@ Processes an input image along with a user-defined prompt to extract relevant in
 4. **Transformers Library**:  
    Hugging Face’s `transformers` library is utilized for loading the Moondream2 model and tokenizer for prompt processing.  
    - [Transformers Documentation](https://huggingface.co/transformers/)
+
+5. **Streamlit**:  
+   A web application framework that allows for easy creation of interactive web applications.
+   - [Streamlit Documentation](https://docs.streamlit.io/)
 
 ---
 
